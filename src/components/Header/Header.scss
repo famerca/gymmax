@@ -1,0 +1,36 @@
+header.comp-header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+
+    h1
+    {
+        margin: 0;
+    }
+
+    .search-container
+    {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        width: 40%;
+    }
+
+    i.fa
+    {
+        font-size: 25px;
+    }
+
+    input
+    {
+        background: var(--gray-background);
+        color: var(--gray-text);
+        border: 1px solid var(--gray-border);
+        border-radius: 4px;
+        padding: .4rem 1rem;
+        outline: none;
+        font-size: 16px;
+        width: 90%;
+    }
+}

@@ -1,0 +1,111 @@
+.comp-login
+{
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100vw;
+    height: 100vh;
+
+    h1
+    {
+        margin: 0;
+        font-weight: bold;
+        font-size: 56px;
+        color: white;
+        text-align: center;
+        padding-top: 15vh;
+    }
+    .login-card
+    {
+        width: 100%;
+        margin: 5vh auto;
+        max-width: 330px;
+        height: 360px;
+        background-color: var(--gray-transparent);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        
+        h2
+        {
+            color: black;
+            font-weight: bold;
+            font-size: 21px;
+            text-align: center;
+            padding: 1rem 0;
+            margin: 0;
+        }
+
+        form
+        {
+            width: 80%;
+            margin: 0.8rem auto;
+        }
+        input
+        {
+            background: white;
+            color: var(--gray-text);
+            border: 2px solid var(--light-gray-border);
+            padding: 0.6rem 1.2rem;
+            width: 100%;
+            box-sizing: border-box;
+            font-size: 18px;
+            line-height: 22px;
+            border-radius: 8px;
+            margin-bottom: 1.4rem;
+            outline: none;
+
+        }
+        input:focus
+        {
+            border-color: var(--gray-text);
+        }
+        button
+        {
+            background-color: var(--button-blue);
+            padding: 0.6rem 1.2rem;
+            width: 100%;
+            box-sizing: border-box;
+            font-size: 18px;
+            line-height: 22px;
+            border-radius: 8px;
+            margin-bottom: 1.4rem;
+            border: none;
+            margin-top: 4rem;
+            cursor: pointer;
+        }
+
+        .error-message
+        {
+            font-size: 17px;
+            width: 80%;
+            color: #d15757;
+            margin: 0 auto;
+            text-align: center;
+            font-weight: 500;
+        }
+    }
+}
+
+.comp-password
+{
+    position: relative;
+
+    span
+    {
+        margin-top: -1rem;
+        display: block;
+        font-size: 12px;
+        text-align: right;
+        padding: 0 .8rem;
+        color: var(--gray-text);
+    }
+
+    .fa
+    {
+        position: absolute;
+        right: 10px;
+        top: 21%;
+        color: var(--gray-text);
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,35 @@
+.comp-user-item
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+    box-sizing: border-box;
+    background: var(--gray-background);
+    text-align: center;
+
+    h3
+    {
+        display: block;
+        margin: 0;
+    }
+    div
+    {
+        width: 65%;
+    }
+
+    span
+    {
+        line-height: 13px;
+        display: block;
+        font-size: 13px;
+        color: var(--gray-border);
+        margin-top: -.3rem;
+    }
+    img
+    {
+        width: 30%;
+        border-radius: 100%;
+    }
+}
